@@ -1,0 +1,8 @@
+name: 'Get Login Link'
+description: 'Generate the login link'
+outputs:
+  login-url: # id of output
+    description: 'The login url'
+runs:
+  using: 'node12'
+  main: 'index.js'
