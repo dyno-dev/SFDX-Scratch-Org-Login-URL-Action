@@ -1,5 +1,8 @@
 name: 'SFDX Scratch Org Login URL Action'
 description: 'This action will generate a Scratch Org URL that can be used as a clickable link for reviewers on a PR.'
+branding:
+  icon: 'log-in'  
+  color: 'red'
 outputs:
   login-url: # id of output
     description: 'The login url'
